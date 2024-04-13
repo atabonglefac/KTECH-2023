@@ -1,8 +1,8 @@
-<h1> Hello, Welcome to Simple DevOps Project Etiendem!!   </h1>
-<h2> this is really awesome when i am getting everything right </h2>
-<h2> Glad to see you here as well </h2>
-<h1> Good job Serge on showing us the light</h1>
-<h1> i can't wait for  to start making big $$$$$$ men !!!</h1>  
-<h1> it is really fun when you can understand what you are doing</h1>  
-<h1> docker is pretty simple guys...cant just keep calm till i make that 6 figure income .....stay laser focus guys ...</h1>  
-<h1>this is another new page for testing</h1>
+<h1> Bonjour, Bienvenue dans Simple DevOps Project Etiendem !!   </h1>
+<h2> C’est vraiment génial quand je fais tout bien </h2>
+<h2> Heureuse de vous voir ici aussi </h2>
+<h1> Bravo Serge de nous avoir montré la lumière</h1>
+<h1> J’ai hâte de commencer à faire de la $$$$$$ pour les hommes !!</h1>  
+<h1> C’est vraiment amusant quand vous pouvez comprendre ce que vous faites</h1>  
+<h1> docker est assez simple les gars... Je ne peux pas rester calme jusqu’à ce que je gagne ce revenu à 6 chiffres ..... Restez concentrés sur le laser les gars ...</h1>  
+<h1>Il s’agit d’une nouvelle page pour les tests</h1>
