@@ -18,7 +18,7 @@
 <main>
 <h1>Welcome to My Website</h1>
 <p>This is a paragraph.</p>
-<a href="https://www.w3schools.com">This is a link</a>
+<a href="https://www.priscilla-guy.com">This is a link</a>
 <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
 </main>
 <script src="index.js"></script>
