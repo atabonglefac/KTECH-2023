@@ -7,8 +7,8 @@
     <h1 style="font-family: Courier; color: #434342; font-size: 48px; text-align: center;"> Bonjour Guy Kubelua, Bienvenue dans Simple DevOps Project Etiendem !!   </h1>
 <h2> C’est vraiment génial quand je fais tout bien </h2>
 <br>
-<h2>HTML Buttons</h2>
-<p>HTML buttons are defined with the button tag:</p>
+<h2>Guy Kubelua</h2>
+<p>This buttoon is to identify who is smart:</p>
 
 <button>Click me</button>
 
