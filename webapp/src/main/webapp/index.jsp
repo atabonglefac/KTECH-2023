@@ -7,6 +7,11 @@
     <h1 style="font-family: Courier; color: #434342; font-size: 48px; text-align: center;"> Bonjour Guy Kubelua, Bienvenue dans Simple DevOps Project Etiendem !!   </h1>
 <h2> C’est vraiment génial quand je fais tout bien </h2>
 <br>
+<h2>HTML Buttons</h2>
+<p>HTML buttons are defined with the button tag:</p>
+
+<button>Click me</button>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
