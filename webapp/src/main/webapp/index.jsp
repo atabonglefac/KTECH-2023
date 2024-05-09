@@ -12,6 +12,11 @@
 
 <button>Click me</button>
 
+<h2>HTML Images</h2>
+<p>HTML images are defined with the img tag:</p>
+
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
