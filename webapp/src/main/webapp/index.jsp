@@ -1,8 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>DevOps Essentials Sample App</title>
 </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guy kubelua</title>
+    <style>
+        .styled-image {
+            border: 2px solid black;
+            border-radius: 8px;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>Kubelua</h1>
+    <img src="C:/Users/guyci/OneDrive/Pictures/DV lottery/IMG_9684.jpg" alt="Description of the image" width="600" height="400" class="styled-image">
+</body>
+
 <body style="background-color: #1A729D;">
     <h1 style="font-family: Courier; color: #434342; font-size: 48px; text-align: center;"> Bonjour Guy Kubelua, Bienvenue dans Simple DevOps Project Etiendem !!   </h1>
 <h2> C’est vraiment génial quand je fais tout bien </h2>
