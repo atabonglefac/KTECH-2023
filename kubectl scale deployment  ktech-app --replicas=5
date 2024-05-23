@@ -1,0 +1,183 @@
+Session 4 : Controllers, troubleshooting  and Customization
+Logs 
+Print logs of specific containers in a pod:
+kubectl logs [-f] <Podname> [containername]
+kubectl logs -f  podname
+
+Print logs of all containers in a Pod
+kubectl logs -f --all-containers podname
+
+Toubleshhout this 
+
+apiVersion: v1
+kind: Po
+metadata:
+ name: ktech-class
+spec:
+ containers:
+ - name: mycontainer
+   image: htt
+   ports:
+   - containerPort: 80
+
+
+Exec: Connect to container
+kubectl exec [-it] <podname> [-c containername] -- <command>
+
+kubectl exec  nginx     -- date
+kubectl exec -it myfirstpod -- sh
+Customization
+Environment Variables and Custom command
+
+
+
+
+
+Vim customisation.yaml
+apiVersion: v1
+kind: Pod
+metadata: 
+ name: customcommand
+spec: 
+ containers: 
+ - image: alpine
+   name: hello-kubernetes
+   command: ['/bin/sh' , '-c' ,'echo "Hello Kubernetes" && printenv && sleep 100']
+   env:
+   - name : myenvvar
+     value: myval
+   - name: hello
+     value: world
+
+
+
+
+
+
+ kubectl apply -f customisation.yaml 
+kubectl exec customcommand  -- printenv  this command shows you the environmental variables that were added by you
+
+Resource Limits
+Pods with resource limits:
+apiVersion: v1
+kind: Pod
+metadata:
+  name: resource-limit
+spec: 
+  containers: 
+  - image: nginx
+    name: nginx
+    resources:
+      requests: 
+        cpu: 0.5
+      limits:
+        cpu: 1
+
+
+Controllers
+ReplicaSet
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata: 
+ name: my-rs
+spec: 
+ replicas: 10
+ template: 
+  metadata: 
+   labels: 
+     app: ktech-app
+  spec: 
+   containers: 
+   - name: con1
+     image: nginx
+ selector: 
+  matchLabels: 
+   app: ktech-app
+
+
+kubectl api-resources; 
+works as a man command in kubernetes.
+Ex kubectl api-resources |grep node
+
+
+
+
+
+
+
+
+
+
+ Read on Different types of deployment https://spot.io/resources/kubernetes-autoscaling/5-kubernetes-deployment-strategies-roll-out-like-the-pros/
+
+Deployment
+
+
+
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+ name: ktech-app
+spec: 
+ replicas: 10
+ template: 
+  metadata: 
+   labels: 
+     app: ktech-app
+  spec: 
+   containers: 
+   - name: con1
+     image: nginx
+ selector: 
+  matchLabels: 
+   app: ktech-app
+
+List the deployment:
+kubectl get deployments
+List pods in the deployment:
+kubectl get pod
+Get details of a Deployment
+kubectl describe deployments  ktech-app 
+Scale a deployment
+kubectl scale deployment  ktech-app --replicas=5
+Imperative way
+kubectl create deployment <deployment-name> --image=<image-name>
+With replicas you do
+kubectl create  deployment atabs1  --image httpd  --replicas=3 
+
+Rollout a new version
+kubectl set image deployment ktech-app con1=nginx:1.20 --record
+Nb: my-dep is the name of deployment, con1 is the container the image is running on nginx is the image and 1.20 is the version
+   If you do kubectl get deployment you would see the new deployment
+Kubectl get rs you would also see new replica .
+Rollout another new version
+kubectl set image deployment ktech-app con1=nginx:1.21 --record
+Check the rollout history
+kubectl rollout history deployment ktech-app
+Nb : my-dep is the name of the deployment 
+Rollback to previous version
+kubectl rollout undo deployment ktech-app
+Services
+Imperative way to expose replicasets
+kubectl expose replicaset my-rs  --port 80 --name my-service
+
+
+Declarative way
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-service
+spec:
+  selector:
+    app: redis
+  ports:
+    - protocol: 
+      name: 
+      port: 80
+      targetPort: 80
+
+ClusterIP 
+kubectl expose deployment my-dep --name my-svc --port 80
+kubectl expose pod  nginx   --port 80 --name nginx   --type LoadBalancer
+
