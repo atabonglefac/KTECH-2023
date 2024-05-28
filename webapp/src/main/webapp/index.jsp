@@ -14,7 +14,7 @@
 </head>
 <body style="background-color: #1A729D;">
     <h1>Kubelua</h1>
-    <img src="path/to/your/image.jpg" alt="Description of the image" width="600" height="400" class="styled-image">
+    <img src="https://guykubelua.s3.amazonaws.com/DSC_7837.jpg" alt="Description of the image" width="600" height="400" class="styled-image">
     
     <h1 style="font-family: Courier; color: #434342; font-size: 48px; text-align: center;"> Bonjour Guy Kubelua, Bienvenue dans Simple DevOps Project Etiendem !!   </h1>
     <h2> C’est vraiment génial quand je fais tout bien </h2>
@@ -24,7 +24,7 @@
     
     <h2>HTML Images</h2>
     <p>HTML images are defined with the img tag:</p>
-    <img src="path/to/your/second/image.jpg" alt="W3Schools.com" width="104" height="142">
+    <img src="https://guykubelua.s3.amazonaws.com/DSC_7672_1.jpg" alt="W3Schools.com" width="104" height="142">
     
     <h2> Heureuse de vous voir ici aussi </h2>
     <h1> Bravo Serge de nous avoir montré la lumière</h1>
