@@ -11,7 +11,7 @@
             box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
         }
     </style>
-</head>
+</head>ls 
 <body style="background-color: #1A729D;">
     <h1>Kubelua</h1>
     <img src="https://guykubelua.s3.amazonaws.com/DSC_7837.jpg" alt="Description of the image" width="600" height="400" class="styled-image">
@@ -24,7 +24,7 @@
     
     <h2>HTML Images</h2>
     <p>HTML images are defined with the img tag:</p>
-    <img src="https://guykubelua.s3.amazonaws.com/DSC_7672_1.jpg" alt="W3Schools.com" width="104" height="142">
+    <img src="https://guykubelua.s3.amazonaws.com/DSC_7672_1.jpg" alt="W3Schools.com" width="600" height="400" class="styled-image">
     
     <h2> Heureuse de vous voir ici aussi </h2>
     <h1> Bravo Serge de nous avoir montré la lumière</h1>
