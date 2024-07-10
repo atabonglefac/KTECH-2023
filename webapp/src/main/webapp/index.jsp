@@ -1,60 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>DevOps Essentials Sample App</title>
-</head>
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guy Ciyanga kubelua</title>
+    <title>DevOps Essentials Sample App</title>
     <style>
-        .styled-image {
-            border: 2px solid black;
-            border-radius: 8px;
-            box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+        /* CSS for styling the RSVP button */
+        .rsvp-button {
+            background-color: #4CAF50; /* Green background */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            float: right; /* Align the button to the right */
         }
     </style>
 </head>
-<body>
-    <h1>Kubelua</h1>
-    <img src="C:/Users/guyci/OneDrive/Pictures/DV lottery/IMG_9684.jpg" alt="Description of the image" width="600" height="400" class="styled-image">
-</body>
-
 <body style="background-color: #1A729D;">
-    <h1 style="font-family: Courier; color: #434342; font-size: 48px; text-align: center;"> Bonjour Guy Kubelua, Bienvenue dans Simple DevOps Project Etiendem !!   </h1>
-<h2> C’est vraiment génial quand je fais tout bien </h2>
-<br>
-<h2>Guy Kubelua</h2>
-<p>This buttoon is to identify who is smart:</p>
+    <h1 style="font-family: Courier; color: #434342; font-size: 48px; text-align: center;">Bonjour Guy Kubelua, Bienvenue dans Simple DevOps Project Etiendem !!</h1>
+    <h2>C’est vraiment génial quand je fais tout bien</h2>
+    <br>
+    <h2>Guy Kubelua</h2>
+    <p>This button is to identify who is smart:</p>
 
-<button>Click me</button>
+    <!-- RSVP button -->
+    <button class="rsvp-button">RSVP</button>
 
-<h2>HTML Images</h2>
-<p>HTML images are defined with the img tag:</p>
-
-<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>My Website</title>
-<link rel="stylesheet" href="./style.css">
-<link rel="icon" href="./favicon.ico" type="image/x-icon">
-</head>
-<body>
-<main>
-<h1>Welcome to My Website</h1>
-<p>This is a paragraph.</p>
-<a href="https://www.priscilla-guy.com">This is a link</a>
-<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-</main>
-<script src="index.js"></script>
-<br>
-<h2> Heureuse de vous voir ici aussi </h2>
-<h1> Bravo Serge de nous avoir montré la lumière</h1>
-<h1> J’ai hâte de commencer à faire de la $$$$$$ pour les hommes !!</h1>  
-<h1> C’est vraiment amusant quand vous pouvez comprendre ce que vous faites</h1>  
-<h1> docker est assez simple les gars... Je ne peux pas rester calme jusqu’à ce que je gagne ce revenu à 6 chiffres ..... Restez concentrés sur le laser les gars ...</h1>  
-<h1>Il s’agit d’une nouvelle page pour les fleurs</h1>
+    <h2>HTML Images</h2>
+    <p>HTML images are defined with the img tag:</p>
+    
+    <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
 </body>
 </html>
