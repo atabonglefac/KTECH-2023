@@ -12,7 +12,7 @@
         }
     </style>
 </head>ls 
-<body style="background-color: #522ba5;">
+<body style="background-color: #4f5df1;">
     <h1>Kubelua</h1>
     <img src="https://guykubelua.s3.amazonaws.com/DSC_7837.jpg" alt="Description of the image" width="600" height="400" class="styled-image">
     
