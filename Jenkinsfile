@@ -4,8 +4,8 @@ pipeline {
      maven 'M2_HOME'
   }
   environment {
-     registry = "myratam/jenkins"
-     registryCredential = 'jenkins'
+     registry = "atabonglefac/jenkins"
+     registryCredential = 'testing123'
   }
   stages {
     stage('Build'){
